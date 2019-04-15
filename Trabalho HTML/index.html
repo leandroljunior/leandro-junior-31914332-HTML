@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cadastro</title>
+    <script src="js/modernizr.js"></script>
+	<script src="js/pace.min.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" href="favicon.ico" type="images/x-icon">
+	<link rel="icon" href="favicon.ico" type="images/x-icon">
+</head>
+<body>
+    <header>
+        <h1><center>Preencha todos os campos abaixo</center></h1>
+    </header>
+    <section id="home">
+        <div class="input">
+            <form method="GET" autocomplete="off">
+                  <p> </p><p ></p>
+                <h3>Nome:</h3>
+                    <input type="text" autofocus="on" class="animate-intro" name="nome" autocomplete="off" placeholder="Primeiro nome">
+                <h3>Sobrenome:</h3>
+                    <input type="text" class="animate-intro" name="Sobrenome" placeholder="Último nome">
+                <h3>Nascimento:</h3>
+                    <input type="date" class="animate-intro" name="nascimento">
+                <h3>Identidade:</h3>
+                    <input type="text" maxlength="10" name="identidade" placeholder="XX1234567">
+                <h3>CPF:</h3>
+                    <input type="text" maxlength="14" name="cpf" placeholder="xxx.xxx.xxx-xx">
+                <h3>Sexo:</h3>
+                    <label class="radio">Masculino
+                        <input type="radio" checked="checked" name="sexo" value="masculino">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="radio">Feminino
+                        <input type="radio" name="sexo" value="feminino">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="radio">Outro
+                        <input type="radio" name="sexo" value="outro">
+                        <span class="checkmark"></span>
+                    </label>
+                <h3>Estado civil:</h3>
+                    <label class="radio">Casado
+                        <input type="radio" checked="checked" name="estado-civil" value="casado">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="radio">Solteiro
+                        <input type="radio" name="estado-civil" value="solteiro">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="radio">Outro
+                        <input type="radio" name="estado-civil" value="outro">
+                        <span class="checkmark"></span>
+                    </label>
+                <h3>Telefone:</h3>
+                    <input type="tel" maxlength="13" name="telefone" placeholder="DDD xxxxxxxx">
+                <h3>Celular:</h3>
+                    <input type="tel" maxlength="13" name="celular" placeholder="DDD xxxxxxxxx">
+                <h3>Email:</h3>
+                    <input type="email" placeholder="xxxxx@xxxx.xxx">
+                <h3>Endereço:</h3>
+                    <input type="text" name="rua" placeholder="Rua">
+                    <input type="text" name="bairro" placeholder="Bairro" maxlength="20">
+                    <input type="text" name="cidade" placeholder="Cidade" maxlength="50">
+                    <input type="number" name="numero" placeholder="nº" min="1" max="9999">
+                    <input type="number" name="cep" placeholder="CEP" min="10000000" max="99999999">
+                <p class="animate-intro" align="left">
+                    <input type="reset" value="Limpar">
+                    <input type="submit" value="Cadastrar"> 
+                </p>
+            </form>
+            <nav>
+                <ul>
+                    <li><a href="C:/Users/eletr/Desktop/Pastas/Trabalho%20HTML/arvore-dom.html" target="_blank">Arvore Dom</a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
